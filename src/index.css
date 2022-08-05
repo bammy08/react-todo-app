@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.content {
+  border: 2px rgb(103, 107, 114) solid;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(239, 244, 244);
+  padding: 20px;
+}
+table {
+  width: 100%;
+}
+td:first-child {
+  width: 100%;
+}
+td:last-child {
+  min-width: 125px;
+}
+th {
+  text-align: left;
+}
+tr:nth-child(even) {
+  /* background-color: rgb(255, 255, 255); */
+}
+input, button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px gainsboro solid;
+}
+
+button {
+  cursor: pointer;
+}
+button.add {
+  background-color: rgb(101, 225, 94);
+  color: whitesmoke;
+}
+button.edit {
+  background-color: rgb(58, 12, 173);
+  color: whitesmoke;
+}
+button.delete {
+  background-color: rgb(214, 20, 20);
+  color: whitesmoke;
+}
+button.save {
+  background-color: rgb(13, 180, 91);
+  color: whitesmoke;
+}
+button.back {
+  background-color: rgb(16, 10, 3);
+  color: whitesmoke;
+}
+.task {
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
